@@ -19,5 +19,15 @@
         
         <a href="ShoppingList?action=logout">Logout</a>
         
+        
+         <form action="" method="post">
+            <h2>List</h2>
+            Add item: <input type="text" name="item">
+             <input type="hidden" name="action" value="add">
+            <input type="submit" value="Add">
+         
+        </form>
+        
+        
     </body>
 </html>
