@@ -28,6 +28,15 @@
          
         </form>
         
-        
+         <form action="" method="post">
+             <ul>
+                 <c:forEach items="${items}" var="item">
+                     <li> <input type="radio" name ="foodName" value="${item}">${item}</li>
+                 </c:forEach>
+             </ul>
+            <input type="submit" value="Delete">
+            <input type="hidden" name="action" value="delete">
+        </form>
+                 
     </body>
 </html>
